@@ -36,9 +36,9 @@ useEffect(() => {
 export default Dashboard
 
 function toggleTransaction() {
-  let transactions = document.querySelector('.transactions')
-  document.querySelector('.toggle').onclick = function() {
-    this.classList.toggle('active')
-    transactions.classList.toggle('active')
+  // let transactions = document.querySelector('.transactions')
+  // document.querySelector('.toggle').onclick = function() {
+  //   this.classList.toggle('active')
+  //   transactions.classList.toggle('active')
   }
 }
