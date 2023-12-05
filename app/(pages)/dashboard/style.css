@@ -1,0 +1,129 @@
+
+
+
+.topBar {
+  background: #1c1c1c;
+  /* border: 1px solid #45f3ff; */
+  height: 52px;
+  margin: 20px;
+}
+
+.filters {
+  margin: 0 0 0 260px;
+  color: #45f3ff;
+}
+
+.filters span {
+  margin-right: 70px;
+}
+
+.transactions {
+  /* position: fixed;
+  top: 120px;
+  left: 120px; */
+  height: 20px;
+  width: 250px;
+  z-index: 100;
+}
+
+.toggle {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #1c1c1c;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #45f3ff;
+  padding: 5px 40px;
+}
+.toggle::before {
+  content: 'Transactions';
+  margin-right: -120px;
+}
+
+.toggle.active::before {
+  content: 'Close';
+  margin-right: -70px;
+}
+
+.toggle span {
+  position: relative;
+  width: 20px;
+  height: 50px;
+}
+
+.toggle span::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #45f3ff;
+  transition: 0.5s;
+}
+
+.toggle span::after {
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #45f3ff;
+  transition: 0.5s;
+}
+
+.toggle.active span::before { 
+  transform: rotate(225deg); 
+  top: 24px;
+}
+.toggle.active span::after { 
+  transform: rotate(135deg); 
+  bottom: 24px;
+}
+
+ul {
+  position: relative;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(250px);
+  transition-delay: calc(0.2s * var(--i));
+}
+
+.transactions.active ul li {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+ul li a {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  height: 50px;
+  background: #1c1c1c;
+  color: #45f3ff;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  background: #1c1c1c;
+  color: #45f3ff;
+  transition: 0s;
+}
+
