@@ -42,7 +42,7 @@
 }
 .toggle::before {
   content: 'Transactions';
-  margin-right: -120px;
+  margin-right: -125px;
 }
 
 .toggle.active::before {

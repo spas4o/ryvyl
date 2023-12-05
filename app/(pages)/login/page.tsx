@@ -12,19 +12,19 @@ const Login = () => {
     <form>
       <h2>Login</h2>
       <div className="inputBox">
-        <input type="text" />
+        <input type="text" required />
         <span>Username</span>
         <i></i>
       </div>
 
       <div className="inputBox">
-        <input type="password" />
+        <input type="password" required />
         <span>Password</span>
         <i></i>
       </div>
 
       <div className="links">
-        <a href="#">Remember Me</a>
+        <a href="/dashboard">Dashboard</a>
       </div>
       <input type="submit" value="Login" />
     </form>

@@ -36,11 +36,17 @@ useEffect(() => {
 export default Dashboard
 
 function toggleTransaction() {
-  // let transactions = document.querySelector('.transactions')
-  // document.querySelector('.toggle').onclick = function() {
-  //   this.classList.toggle('active')
-  //   transactions.classList.toggle('active')
-  //}
+  let transactions = document.querySelector('.transactions') as HTMLElement
+  let toggleButton = document.querySelector('.toggle') as HTMLButtonElement
+
+  if (transactions && toggleButton) {
+    toggleButton.onclick = function () {
+      toggleButton.classList.toggle('active')
+      transactions.classList.toggle('active')
+    };
+  } else {
+    console.error('Either .transactions or .toggle not found in the document.')
+  }
 }
 
 
