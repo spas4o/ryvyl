@@ -1,17 +1,29 @@
 
 .tableHolder {
   margin: 20px;
+  background: #1c1c1c;
+}
+
+.MuiPaper-root, .MuiPaper-elevation, .MuiPaper-rounded, .MuiPaper-elevation1, .MuiTableContainer-root, 
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  background-color: #1c1c1c!important;
 }
 
 .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
   background-color: #1c1c1c;
-  color: #fff;
+  /* color: #fff; */
+  color: #45f3ff;
 }
 
 .css-11xur9t-MuiPaper-root-MuiTableContainer-root th, .css-11xur9t-MuiPaper-root-MuiTableContainer-root td {
   color: #45f3ff;
 }
 
-.css-1ex1afd-MuiTableCell-root {
+.css-1ex1afd-MuiTableCell-root, .css-1ygcj2i-MuiTableCell-root {
   border-bottom: 1px solid #45f3ff;
 }
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: #45f3ff;
+}
+
