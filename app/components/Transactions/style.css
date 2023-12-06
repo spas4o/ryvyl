@@ -11,3 +11,7 @@
 .css-11xur9t-MuiPaper-root-MuiTableContainer-root th, .css-11xur9t-MuiPaper-root-MuiTableContainer-root td {
   color: #45f3ff;
 }
+
+.css-1ex1afd-MuiTableCell-root {
+  border-bottom: 1px solid #45f3ff;
+}
