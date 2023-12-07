@@ -9,6 +9,10 @@
   background-color: #1c1c1c!important;
 }
 
+.MuiTableCell-root, .MuiTableCell-head, .MuiTableCell-sizeMedium, .css-1ygcj2i-MuiTableCell-root {
+  color: #45f3ff;
+}
+
 .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
   background-color: #1c1c1c;
   /* color: #fff; */
