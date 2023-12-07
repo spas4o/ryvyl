@@ -23,7 +23,7 @@
   color: #45f3ff!important;
 }
 
-.css-1ex1afd-MuiTableCell-root, .css-1ygcj2i-MuiTableCell-root {
+.MuiTableCell-root, .MuiTableCell-body, .MuiTableCell-sizeMedium, .css-1ex1afd-MuiTableCell-root {
   border-bottom: 1px solid #45f3ff!important;
 }
 
